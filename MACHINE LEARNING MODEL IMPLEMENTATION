@@ -1,0 +1,48 @@
+....LOGISTIC REGRESSION
+from sklearn.linear_model import LogisticRegression
+
+# Model initialization
+log_reg_model = LogisticRegression()
+
+# Training the model
+log_reg_model.fit(X_train_vec, y_train)
+
+# Predicting
+y_pred_log = log_reg_model.predict(X_test_vec)
+
+# Evaluation
+print("Logistic Regression Accuracy:", accuracy_score(y_test, y_pred_log))
+print("\nClassification Report:\n", classification_report(y_test, y_pred_log))
+
+...RANDOM FOREST CLASSIFIER
+from sklearn.ensemble import RandomForestClassifier
+
+# Model initialization
+rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+
+# Training the model
+rf_model.fit(X_train_vec, y_train)
+
+# Predicting
+y_pred_rf = rf_model.predict(X_test_vec)
+
+# Evaluation
+print("Random Forest Accuracy:", accuracy_score(y_test, y_pred_rf))
+print("\nClassification Report:\n", classification_report(y_test, y_pred_rf))
+
+....SUPPORT VECTOR MACHINE
+from sklearn.svm import SVC
+
+# Model initialization
+svm_model = SVC()
+
+# Training the model
+svm_model.fit(X_train_vec, y_train)
+
+# Predicting
+y_pred_svm = svm_model.predict(X_test_vec)
+
+# Evaluation
+print("SVM Accuracy:", accuracy_score(y_test, y_pred_svm))
+print("\nClassification Report:\n", classification_report(y_test, y_pred_svm))
+
