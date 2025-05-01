@@ -35,3 +35,9 @@ Learn to integrate libraries like NLTK/spaCy for text understanding.
 Improve their software development and debugging skills.
 
 Develop a project they can showcase in resumes or portfolios.
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/4b43a956-54c2-4320-ba2f-de062dc20184)
+![Image](https://github.com/user-attachments/assets/461fc9a7-ea94-437f-818b-80e1879b77b1)
+![Image](https://github.com/user-attachments/assets/c9f66bea-7795-452b-966f-932342ac2801)
